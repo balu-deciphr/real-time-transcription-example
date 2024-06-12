@@ -1,0 +1,12 @@
+{
+  "name": "real-time-transcription",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Balu Vaithinathan <balu@deciphr.ai>",
+  "license": "ISC"
+}

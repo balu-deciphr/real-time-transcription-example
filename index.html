@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="header__title">Real-Time Transcription</h1>
+    <p class="header__sub-title">
+      Try AssemblyAI's new real-time transcription endpoint!
+    </p>
+  </header>
+  <div class="real-time-interface">
+    <p id="real-time-title" class="real-time-interface__title">
+      Select a media file to begin the real-time transcription.
+    </p>
+
+    <input type="file" accept="audio/mpeg, audio/wav, video/mp4, video/quicktime, video/webm" id="button" />
+
+    <p id="message" class="real-time-interface__message"></p>
+  </div>
+
+  <script src="assets/scripts/assemblyai.js"></script>
+  <script src="assets/scripts/index.js"></script>
+</body>
+
+</html>
